@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="w1714893_westminster_rental_vehicle@localhost" uuid="24775ec4-751c-4b0d-81aa-c51b0275c208">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/w1714893_westminster_rental_vehicle</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="w1714893PersistenceUnit/Hibernate" uuid="903eb910-e998-4078-acc1-4f264ca99d4f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/IdeaProjects/w1714893WestminsterRentalVehicle/src/main/resources/META-INF/persistence.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost/w1714893_westminster_rental_vehicle</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="w1714893_westminster_rental_vehicle@localhost [2]" uuid="a5ad94f2-5daa-4046-9131-ceb5e8ac9753">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/w1714893_westminster_rental_vehicle</jdbc-url>
+    </data-source>
+  </component>
+</project>
