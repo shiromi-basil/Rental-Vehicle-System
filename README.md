@@ -7,9 +7,9 @@ In this assignment, you will be required to implement the following functionalit
 1.	According to the Inheritance principle you have to design and implement a super class Vehicle (6 marks) and the subclasses Car                               and Motorbike. The classes should include appropriate methods in order to comply with the encapsulation principle and hold information about the Plate number, and the Make (You can add any other information that you consider appropriate for a rental vehicle system and you can implement additional classes with justification to make the code more robust or user friendly).
         
 In particular:
-	•	The Car class should hold specific information and methods. You should add at least 2 instance variables (attributes that you 	  			believe are important to be held in this class) and the relative get/set methods (5 marks).
-	•	The Motorbike class should hold specific information and methods. You should add at least 2 instance variables (attributes) and     		the relative get/set methods (5 marks).
-	•	You should implement a class Schedule to represent the time slot when a vehicle has been booked. The class should have a pick-up 			date and a drop-off date (to represent the date you can use either the class provided during tutorials or you can use any java API). 		 (5 marks).
+	• The Car class should hold specific information and methods. You should add at least 2 instance variables (attributes that you 	  believe are important to be held in this class) and the relative get/set methods (5 marks).
+	• The Motorbike class should hold specific information and methods. You should add at least 2 instance variables (attributes) and 	    the relative get/set methods (5 marks).
+	• You should implement a class Schedule to represent the time slot when a vehicle has been booked. The class should have a pick-up 	     date and a drop-off date (to represent the date you can use either the class provided during tutorials or you can use any java 	      API) (5 marks).
 
 2.	Design and implement a class called WestminsterRentalVehicleManager, which implements the interface RentalVehicleManager (2 marks). WestminsterRentalVehicleManager maintains the list of the vehicle to rent and provides all the methods for the system manager.
 
