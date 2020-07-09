@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Motorbike | RVSystem</title>
+</head>
+
+<body>
+    <div class="body-layer">
+        <a routerLink="/home">
+            <div class="home-button"></div>
+        </a>
+
+        <div class="form-container">
+            <form method="POST">
+                <p class="header">Add motorbike schedule</p>
+
+                <div class="textfield">
+                    <input type="text" id="cusID" name="cusID" [(ngModel)]="cusID" [ngModelOptions]="{standalone:true}">
+                    <label class="form-label">Customer ID</label>
+                </div>
+
+                <div class="textfield">
+                    <input type="text" id="vPlateNo" name="vPlateNo" [(ngModel)]="vPlateNo" [ngModelOptions]="{standalone:true}">
+                    <label class="form-label">Vehicle Plate Number</label>
+                </div>
+
+                <div class="textfield">
+                    <input type="date" id="sPickUpDate" name="sPickUpDate" [ngModel]="sPickUpDate | date: 'yyyy-MM-dd'"
+                        (ngModelChange)="sPickUpDate = $event" [ngModelOptions]="{standalone:true}">
+                    <label class="form-label">Pick-up Date</label>
+                </div>
+
+                <div class="textfield">
+                    <input type="date" id="sDropOffDate" name="sDropOffDate" [ngModel]="sDropOffDate | date: 'yyyy-MM-dd'"
+                        (ngModelChange)="sDropOffDate = $event" [ngModelOptions]="{standalone:true}">
+                    <label class="form-label">Drop-off Date</label>
+                </div>
+
+                <div class="btn-contanier">
+                    <input type="submit" value="Add" class="btn" (click)="AddBikeSchedule()">
+                    <input type="reset" value="Reset" class="btn">
+                </div>
+            </form>
+        </div>
+
+        <div class="list-container">
+            <ol class="vehicle-list">
+                <li class="each-point" *ngFor="let viewBikeList of viewBikeLists">
+                    <p class="left-column">Vehicle Plate Number:</p>
+                    <p> {{viewBikeList.vPlateNo}}</p>
+                    <p class="left-column">Vehicle Make:</p>
+                    <p> {{viewBikeList.vMake}}</p>
+                    <p class="left-column">Vehicle Model:</p>
+                    <p> {{viewBikeList.vModel}}</p>
+                    <p class="left-column">Vehicle Transmission:</p>
+                    <p> {{viewBikeList.vTransmission}}</p>
+                    <p class="left-column">Rate Per Day (Rs.):</p>
+                    <p> {{viewBikeList.vRatePerDay}}</p>
+                    <p class="left-column">Petrol Capacity:</p>
+                    <p> {{viewBikeList.mPetrolCapacity}}</p>
+                    <p class="left-column">Motorbike Type:</p>
+                    <p> {{viewBikeList.mType}}</p>
+                    <p class="left-column">Model Year:</p>
+                    <p> {{viewBikeList.mModel}}</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

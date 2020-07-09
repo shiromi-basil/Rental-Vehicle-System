@@ -1,0 +1,19 @@
+@font-face {
+  font-family: futura;
+  src: url("/assets/fonts/Futura-Book.ttf");
+}
+
+@font-face {
+  font-family: grotesk;
+  src: url("/assets/fonts/-Grotesk-Light.ttf");
+}
+
+@font-face {
+  font-family: oswald;
+  src: url("/assets/fonts/Oswald-Medium.ttf");
+}
+
+@font-face {
+    font-family: neuzeit;
+    src: url("/assets/fonts/Neuzeit-Book.ttf");
+}
