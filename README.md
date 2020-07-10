@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 #### Clone Repository:
   
-    git clone https://github.com/SafiyyahR/ARC-R3ACT.git
+    git clone https://github.com/shiromi-basil/rental-vehicle-system.git
 
 #### To setup database:
 
