@@ -66,8 +66,9 @@ To execute automated testing using JUnit run the files in `rental-vehicle-system
 ## Built With
 * [Java](https://docs.oracle.com/en/java/)
 * [TypeScript](https://www.typescriptlang.org/docs/)
-* [HTML](https://www.w3.org/html/)
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+* [HTML](https://www.w3.org/html/)
+* [MySQL](https://dev.mysql.com/doc/)
 * [JavaScript](https://devdocs.io/javascript/)
 
 ## Authors
