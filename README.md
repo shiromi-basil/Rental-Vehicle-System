@@ -24,11 +24,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installation
 
-#### Clone Repository:
+#### Clone Repository :
   
     git clone https://github.com/shiromi-basil/rental-vehicle-system.git
 
-#### To setup database:
+#### To setup database :
 
     CREATE DATABASE rental-vehicle-system
     
@@ -38,16 +38,16 @@ When running the project for the first time, change the line below in the `renta
     
 To add demo data into the database, execute the SQL queries in file `rental-vehicle-system\rental-vehicle-system.sql`.
 
-#### To install dependencies:
+#### To install dependencies :
 
     cd gui-frontend
     npm install
 
-#### To start server:
+#### To start server :
 
     npm start
 
-#### To visit app:
+#### To visit app :
 
     localhost:4200/ 
 
@@ -59,6 +59,15 @@ To add demo data into the database, execute the SQL queries in file `rental-vehi
 * Book available vehicles for specific dates.
 
 ## Screenshots
+#### Console :
+<img alt="Console 01" src="demo/console-01.png" width="700">
+
+<img alt="Console 02" src="demo/console-02.png" width="700">
+
+<img alt="Console 03" src="demo/console-03.png" width="700">
+
+#### GUI :
+![GUI Demo](demo/gui.gif)
 
 ## Tests
 To execute automated testing using JUnit run the files in `rental-vehicle-system\console-system\src\test\java`.
